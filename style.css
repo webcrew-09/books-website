@@ -114,9 +114,8 @@ body {
 }
 
 h2{
-    color: #4499ee;
+    color: black;
     margin-left: 54px;
-    text-shadow: 0px 0px 10px #4499ee;
 }
 
 .search-container button:hover {
@@ -198,7 +197,7 @@ h2{
     margin: 20px;
     border-radius: 10px;
     padding: 20px;
-    background-image: url('bgimage.jpg');
+    background: whitesmoke;
     background-size: contain;
     background-position: center;
     margin: 20px;
