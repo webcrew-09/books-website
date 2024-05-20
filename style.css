@@ -1,0 +1,280 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5; /* Light Gray */
+    color: #333333; /* Dark Gray */
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS code */
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #003366; /* Deep Blue */
+    padding: 10px;
+}
+
+.navbar .logo,
+.anchor,
+.navbar .search-container,
+.navbar .login-button {
+    margin: 0 10px; /* Apply margin to all navbar elements */
+}
+
+.login-button {
+    color: #FFD700; /* Soft Gold */
+    text-decoration: none;
+    padding: 14px 20px;
+    margin-left: auto; /* Push the login button to the right */
+}
+
+.login-button:hover {
+    background-color: #4169E1; /* Royal Blue */
+    color: white;
+}
+
+
+.navbar .logo {
+    color: #FFD700; /* Soft Gold */
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.btn{
+    color: #4169E1;
+    background-color: #FFD700;
+    width: 110px;
+    height: 40px;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+
+.btn:hover{
+    box-shadow: 0px 0px 23px #FFD700;
+}
+
+.btn a{
+    padding-left: 30px;
+    padding-top:13px ;
+    font-weight: 600;
+    font-size: medium;
+    color: #4169E1;
+    text-decoration: none;
+}
+
+#about{
+    height: 918px;
+    width: 100%;
+    background-color: var(--second-bgcolor);
+    color: var(--text-color);
+    display: flex;
+}
+
+.anchor {
+    color: #FFD700; /* Soft Gold */
+    text-decoration: none;
+    padding: 14px 10px; /* Decreased padding for equal spacing */
+    margin-right: 10px; /* Add margin between each link */
+}
+
+
+.anchor:hover {
+    background-color: #4169E1; /* Royal Blue */
+    color: white;
+}
+
+.about-link {
+    margin-left: 20px; /* Adjust this value as needed */
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Push the search container to the far right */
+}
+
+.search-container input[type="text"] {
+    padding: 6px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.search-container button {
+    padding: 6px 10px;
+    background-color: #FFD700; /* Soft Gold */
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+h2{
+    color: #4499ee;
+    margin-left: 54px;
+    text-shadow: 0px 0px 10px #4499ee;
+}
+
+.search-container button:hover {
+    background-color: #4169E1; /* Royal Blue */
+    color: white;
+}
+
+/* CSS code */
+.login-button {
+    color: #FFD700; /* Soft Gold */
+    text-decoration: none;
+    padding: 14px 20px;
+    margin-left: auto; /* Push the login button to the right */
+}
+
+.login-button:hover {
+    background-color: #4169E1; /* Royal Blue */
+    color: white;
+}
+
+
+.quote-image {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.quote-image img {
+    width: 100%;
+    height: auto;
+}
+
+.quote-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.popular-books {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.popular-books h2 {
+    margin-top: 0;
+}
+
+.book-list {
+    display: flex;
+}
+
+.book {
+    margin-right: 20px;
+}
+
+.book img {
+    width: 150px; /* Adjust the width of the book cover */
+    height: 200px; /* Adjust the height of the book cover */
+    background-color: #000; /* Black cover */
+}
+
+.book h3 {
+    text-align: center;
+}
+
+.popular-books {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    background-image: url('bgimage.jpg');
+    background-size: contain;
+    background-position: center;
+    margin: 20px;
+    border-radius: 10px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    
+}
+
+.popular-books h2 {
+    margin-top: 0;
+}
+
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid with minimum column width of 200px */
+    grid-gap: 250px; /* Gap between grid items */
+    justify-content: space-between; /* Distribute items evenly across the row */
+}
+
+
+.book {
+    text-align: center;
+}
+
+.cover {
+    width: 150px; /* Width of the book cover */
+    height: 200px; /* Height of the book cover */
+    background-color: #f0f0f0; /* Light gray background for the cover */
+    border: 1px solid #ccc; /* Border around the cover */
+    border-radius: 5px; /* Rounded corners for the cover */
+    margin: 0 auto 10px; /* Margin to separate cover from title */
+}
+
+h3 {
+    margin: 0; /* Remove default margin for the title */
+}
+
+
+.footer {
+    background-color: #003366; /* Deep Blue */
+    color: #FFFFFF; /* White */
+    padding: 50px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-info,
+.contact-info,
+.branch-info {
+    flex: 1;
+    margin-right: 20px; /* Add some space between sections */
+}
+
+.footer-info h3,
+.contact-info h3,
+.branch-info h3 {
+    margin-bottom: 15px;
+}
+
+.footer-info p,
+.contact-info p,
+.branch-info p {
+    margin: 8px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px; /* Add some space between content and bottom */
+}
+
+.book-grid h3{
+    color: #4169E1;
+    text-decoration: none;
+}

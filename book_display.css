@@ -1,0 +1,55 @@
+/* CSS code for book details page */
+.book-details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-details-container h2 {
+    color: #003366;
+}
+
+.book-description {
+    margin-bottom: 20px;
+}
+
+.donation-bar {
+    margin-bottom: 20px;
+}
+
+.donation-bar button {
+    background-color: #003366;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.donation-bar button:hover {
+    background-color: #002245;
+}
+
+.donation-bar-progress {
+    background-color: #003366;
+    height: 20px;
+    width: 50%;
+}
+
+.pdf-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.character-description {
+    margin-bottom: 20px;
+}
+
+.character-description h3 {
+    color: #003366;
+}
