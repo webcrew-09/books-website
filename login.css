@@ -110,3 +110,41 @@ button{
     color: whitesmoke;
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 767px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-height: 600px;
+        background-image: url(https://c4.wallpaperflare.com/wallpaper/479/101/113/germany-saxony-gorlitz-hall-historical-literature-wallpaper-preview.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .wrapper {
+        width: 60%; /* Adjust width to occupy almost the full width of the screen */
+        margin-top: 150px;
+    }
+    .wrapper h1 {
+        font-size: 28px; /* Decrease font size for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 514px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-height: 600px;
+        background-image: url(https://c4.wallpaperflare.com/wallpaper/479/101/113/germany-saxony-gorlitz-hall-historical-literature-wallpaper-preview.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .wrapper {
+        width: 85%; /* Adjust width to occupy almost the full width of the screen */
+        margin-top: 150px;
+    }
+    .wrapper h1 {
+        font-size: 28px; /* Decrease font size for smaller screens */
+    }
+}

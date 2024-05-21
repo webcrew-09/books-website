@@ -49,4 +49,15 @@ body {
   input[type="submit"]:hover {
     background-color: #0056b3;
   }
+
+  @media only screen and (max-width: 514px) {
+    body{
+      height: 400px;
+    }
+
+    .container{
+      width: 70%;
+      margin-top: 180px;
+    }
+}
   
