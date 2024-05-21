@@ -334,6 +334,11 @@ h3 {
         width: 100%;
     }
 
+    .search-container input[type="text"] {
+        height: 18px;
+        width: 120px;
+    }
+
     .quote-text{
         font-size: 20px;
     }
@@ -344,7 +349,7 @@ h3 {
     }
 
     .logo h2{
-        font-size: 18px;
+        font-size: 15px;
         margin-left: 0;
         margin-right: 10px;
         color: #FFD700;
