@@ -336,9 +336,21 @@ h3 {
 
     .search-container input[type="text"] {
         height: 18px;
-        width: 120px;
+        width: 90px;
+        margin-left: 0;
     }
-
+    
+    .search-container button {
+        padding: 6px 10px;
+        margin: 0px;
+        width: 55px;
+        height: 30px;
+        background-color: #FFD700; /* Soft Gold */
+        border: none;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+    
     .quote-text{
         font-size: 20px;
     }
@@ -346,6 +358,11 @@ h3 {
     .checkbtn{
         display: block;
         margin-left: 20px;
+    }
+
+    .navbar .logo{
+        margin-right: 5px;
+        margin-left: 8px;
     }
 
     .logo h2{
