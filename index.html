@@ -3,25 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bookreads Main Page</title>
+    <title>Booksphere</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="navbar">
-        <div class="logo">Bookreads</div>
+        <div class="logo"><h2>Booksphere<h2></div>
         <a href="#home" class="anchor">Home</a>
         <a href="#genres" class="anchor">Genres</a> <!-- Added "Genres" link -->
         <a href="#about" class="anchor">About</a>
         <div class="search-container">
             <input type="text" placeholder="Search..">
             <button type="submit">Search</button>
-
         </div>
+        
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+           
         <div class="btn"><a href="login.html">Login</a></div> <!-- Login button -->
         </div>
         </div>
-
+        
+        <div  class="responsivenav" id="responsivenav">
+            <a href="#home" class="responsive_a">Home</a>
+            <a href="#genres" class="responsive_a">Genres</a>
+            <a href="#about" class="responsive_a">About</a>
+            <a href="login.html" class="responsive_a">Login</a>
+        </div>
     </div>
+
+    
     
 
     <!-- Image with quotes -->
@@ -150,5 +164,13 @@
     </div>
 </footer>
 
+<script>
+    const check = document.getElementById('check');
+    const responsivenav = document.getElementById('responsivenav');
+  
+    check.addEventListener('click', () => {
+      responsivenav.classList.toggle('show');
+    });
+</script>
 
 </html>

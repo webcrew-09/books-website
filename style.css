@@ -277,3 +277,96 @@ h3 {
     color: #4169E1;
     text-decoration: none;
 }
+
+.button{
+    display: flex;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+.logo h2{
+    color: #FFD700;
+}
+
+.responsivenav{
+    color: #FFD700;
+    background-color: #003366;
+    height: 500px;
+    width: 100%;
+    display: grid;
+    grid-gap: 25px;
+    display: none;
+}
+
+.responsivenav {
+    display: none;
+    transition: display 0.5s ; /* Add transition effect */
+  }
+  
+  .responsivenav.show {
+    display: grid;
+    transition: display 0.5s; /* Add transition effect */
+  }
+
+.responsive_a{
+    text-decoration: none;
+    color: #FFD700;
+    font-size: larger;
+    font-weight:350 ;
+    padding-left: 42%;
+    text-shadow: 0px 0px 13px #FFD700;
+}
+
+@media only screen and (max-width:900px){
+    body{
+        width: 100%;
+    }
+
+    .quote-text{
+        font-size: 20px;
+    }
+
+    .checkbtn{
+        display: block;
+        margin-left: 20px;
+    }
+
+    .logo h2{
+        font-size: 18px;
+        margin-left: 0;
+        margin-right: 10px;
+        color: #FFD700;
+    }
+    
+    .anchor{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    #check:checked .responsivenav {
+        display: grid;
+    }
+
+    .footer h3{
+        font-size: 17px;
+        padding-left: 14px;
+    }
+
+    .footer p{
+        font-size: 13px;
+        padding-left: 14px;
+    }
+}
