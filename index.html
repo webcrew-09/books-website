@@ -6,13 +6,14 @@
     <title>Booksphere</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <div class="navbar">
         <div class="logo"><h2>Booksphere<h2></div>
         <a href="#home" class="anchor">Home</a>
         <a href="#genres" class="anchor">Genres</a> <!-- Added "Genres" link -->
-        <a href="#about" class="anchor">About</a>
+        <a href="about.html" class="anchor">About</a>
         <div class="search-container">
             <input type="text" placeholder="Search..">
             <button type="submit">Search</button>
@@ -83,43 +84,43 @@
             <div class="book-grid">
                 <!-- Repeat the following div block for each book -->
                 <a href="book_display.html" class="book">
-                    <div class="cover"></div> <!-- Book cover -->
+                    <div class="cover" data-aos="flip-left"></div> <!-- Book cover -->
                     <h3>Title of the Book</h3> <!-- Title of the book -->
                 </a>
                 <!-- Repeat the above div block for each book -->
                 <a href="book_display.html" class="book">
-                    <div class="cover"></div> <!-- Book cover -->
+                    <div class="cover" data-aos="flip-left"></div> <!-- Book cover -->
                     <h3>Title of the Book</h3> <!-- Title of the book -->
                 </a>
                 <!-- Repeat the following div block for each book -->
                 <a href="book_display.html" class="book">
-                    <div class="cover"></div> <!-- Book cover -->
+                    <div class="cover" data-aos="flip-left"></div> <!-- Book cover -->
                     <h3>Title of the Book</h3> <!-- Title of the book -->
                 </a>
                 <!-- Repeat the above div block for each book -->
                 <a href="book_display.html" class="book">
-                    <div class="cover"></div> <!-- Book cover -->
+                    <div class="cover" data-aos="flip-left"></div> <!-- Book cover -->
                     <h3>Title of the Book</h3> <!-- Title of the book -->
                 </a>
                 <!-- Repeat the above div block for each book -->
                 <!-- Repeat the following div block for each book -->
                 <a href="book_display.html" class="book">
-                    <div class="cover"></div> <!-- Book cover -->
+                    <div class="cover" data-aos="flip-left"></div> <!-- Book cover -->
                     <h3>Title of the Book</h3> <!-- Title of the book -->
                 </a>
                 <!-- Repeat the above div block for each book -->
                 <a href="book_display.html" class="book">
-                    <div class="cover"></div> <!-- Book cover -->
+                    <div class="cover" data-aos="flip-left"></div> <!-- Book cover -->
                     <h3>Title of the Book</h3> <!-- Title of the book -->
                 </a>
                 <!-- Repeat the following div block for each book -->
                 <a href="book_display.html" class="book">
-                    <div class="cover"></div> <!-- Book cover -->
+                    <div class="cover" data-aos="flip-left"></div> <!-- Book cover -->
                     <h3>Title of the Book</h3> <!-- Title of the book -->
                 </a>
                 <!-- Repeat the above div block for each book -->
                 <a href="book_display.html" class="book">
-                    <div class="cover"></div> <!-- Book cover -->
+                    <div class="cover" data-aos="flip-left"></div> <!-- Book cover -->
                     <h3>Title of the Book</h3> <!-- Title of the book -->
                 </a>
                 <!-- Repeat the above div block for each book -->
@@ -143,7 +144,7 @@
 
 
 
-</body>
+
 
 <footer class="footer">
     <div class="footer-container">
@@ -164,6 +165,15 @@
     </div>
 </footer>
 
-<script src="script.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset:300,
+    duration:900
+  });
+</script>
 
+
+<script src="script.js"></script>
+</body>
 </html>

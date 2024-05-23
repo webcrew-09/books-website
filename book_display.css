@@ -134,12 +134,12 @@ body {
   }
   
   .other-book {
+    width: 250px;
     background: white;
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 1rem;
     text-align: center;
-    width: calc(33% - 2rem);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   

@@ -355,6 +355,10 @@ h3 {
         font-size: 20px;
     }
 
+    .book-grid{
+        grid-gap: 200px;
+    }
+
     .checkbtn{
         display: block;
         margin-left: 20px;
